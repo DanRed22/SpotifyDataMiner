@@ -46,7 +46,7 @@ app.use(function(err, req, res, next) {
 
 
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN, // Replace with your React app's URL
+  origin: '*', // Replace with your React app's URL
   methods: 'GET,POST',
   credentials: true,
 };
