@@ -287,6 +287,14 @@ function Home() {
       </Alert>
       </Fade>:<></>
             }
+            <Row>
+            <div className='w-25 p-2'>
+        {/* Add a button that redirects to the "Convert" page */}
+        <Link to="/convert">
+          <Button>Convert {">"}</Button>
+        </Link>
+      </div>
+            </Row>
       <Row>
         <div className='w-25 border p-2'>
           <Button onClick={connect}>Check Login Status</Button>
@@ -315,12 +323,7 @@ function Home() {
         <Button className='my-2' onClick={handleFileSubmit}>Get Data</Button>
       </div>
 
-      <div className='w-25 border p-2'>
-        {/* Add a button that redirects to the "Convert" page */}
-        <Link to="/convert">
-          <Button>Go to Convert Page</Button>
-        </Link>
-      </div>
+      
       </Row>
       
       
