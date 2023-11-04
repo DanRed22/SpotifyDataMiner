@@ -132,6 +132,7 @@ function Convert() {
             for (const data of jsonFile){
               var artistsList = [];
               var artistsNameList = [];
+              if (data.artists !== null){
               for (const artist of data.artists){
                 //console.log("SLAYYYY::: ", artist.name)
                 artistsList.push({
@@ -162,6 +163,7 @@ function Convert() {
                 artistsNameListString = artistsNameListString.concat(`,${element.name}`)
                 }
               });
+            }
               //console.log("ARTISTS LIST: ", artistsListString);
               newJson.push({
                 id: data.id,
