@@ -16,6 +16,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "json-2-csv": "^5.0.1",
     "morgan": "~1.9.1",
     "nodemon": "^3.0.1",
     "spotify-web-api-node": "^5.0.2"
