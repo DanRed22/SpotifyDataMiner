@@ -44,26 +44,26 @@
 
 
 *Notes:*
-*npm i* - is a one-time step no need to re-execute this command when using the dataminer
-*npm start* - is a needed step each time you run the dataminer
+- *npm i* - is a one-time step no need to re-execute this command when using the dataminer
+- *npm start* - is a needed step each time you run the dataminer
 
 Troubleshooting:
 *Can't login?*
-Be sure to provide your client id and client secret correctly in your .env file located in the /api/.env
+- Be sure to provide your client id and client secret correctly in your .env file located in the /api/.env
 
 If you are sure you provided the correct Client ID and Client Secret the do the ff:
 Restart the api. By going to the api folder:
-*Quick Method:* go to the app.js in the api and hit cntrl-s (save)
-*Long Method:* stop the service of the api in your terminal, and re run by "npm run start"
-Open new tab. - THIS IS IMPORTANT
-go to http://localhost:8888/login this should fix the issue 
+- *Quick Method:* go to the app.js in the api and hit cntrl-s (save)
+- *Long Method:* stop the service of the api in your terminal, and re run by "npm run start"
+- Open new tab. - THIS IS IMPORTANT
+- go to http://localhost:8888/login this should fix the issue 
 
 
 
 *Can't get data? Refresh Token is Err?* 
-Relogin again by going to http://localhost:8888/login and copy pasting the credentials in your .env file (located at /api)
+- Relogin again by going to http://localhost:8888/login and copy pasting the credentials in your .env file (located at /api)
 
 *Can't upload files?*
-Probably its in the wrong format. I made the fields only to accept a specific file type.
+- Probably its in the wrong format. I made the fields only to accept a specific file type.
 
 
